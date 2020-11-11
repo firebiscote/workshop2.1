@@ -2,10 +2,21 @@
 //
 
 #include <iostream>
+#include "pch.h"
 
-int main()
-{
-    std::cout << "Hello World!\n";
+using namespace std;
+
+int main() {
+    CLa oa;
+    CLb ob;
+    CLb* pb;
+    pb = &ob;
+    oa.ma1();
+    oa.ma2();
+    oa.ma3(ob);
+    oa.ma4(*pb);
+    oa.ma5(pb);
+    return 0;
 }
 
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage

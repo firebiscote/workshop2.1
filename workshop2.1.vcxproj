@@ -139,7 +139,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ex1.cpp" />
+    <ClCompile Include="ex2.cpp" />
+    <ClCompile Include="Cla.cpp" />
+    <ClCompile Include="CLb.cpp" />
+    <ClCompile Include="process1.cpp" />
+    <ClCompile Include="process2.cpp" />
+    <ClCompile Include="composants.cpp" />
     <ClCompile Include="workshop2.1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ex1.h" />
+    <ClInclude Include="ex2.h" />
+    <ClInclude Include="CLa.h" />
+    <ClInclude Include="CLb.h" />
+    <ClInclude Include="composants.h" />
+    <ClInclude Include="process1.h" />
+    <ClInclude Include="process2.h" />
+    <ClInclude Include="pch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
